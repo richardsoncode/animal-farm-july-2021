@@ -29,3 +29,25 @@ header.textContent = "Cat"
         header.textContent = "Horse"
           })
   
+          document.addEventListener('keydown', logKey);
+
+          function logKey(event) {
+            if (event.key == "c") {
+            catSound.play();
+            header.textContent = "Cat"
+          }
+          if (event.key == "d") {
+            dogSound.play();
+            header.textContent = "Dog"
+          }
+          if (event.key == "h") {
+            horseSound.play();
+            header.textContent = "Horse"
+          }
+
+        }
+
+
+         
+          
+
