@@ -4,6 +4,7 @@ body {
     background-color: #FFFCFA;
     display: grid;
     grid-template-rows: auto 1fr auto;
+    background-color: green;
 }
 
 main {
@@ -33,3 +34,20 @@ footer {
     background-color: #FAF0EA;
     padding: 10px;
 }
+
+.box {
+
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img {
+
+    width: 200px;
+     height: 200px;
+     padding: 20px;
+}
+
